@@ -64,49 +64,50 @@
 <details>
   <summary>📸 <strong>Click to view screenshots</strong></summary>
   <br/>
-  <table>
+  <table style="width:100%; border-spacing: 30px 20px;">
     <tr>
-      <td align="center">
-        <strong>Extension Popup & Settings</strong><br/>
-        <img src="preview/sumup-settings.png" alt="SumUp Settings" width="300">
+      <td align="center" style="width:50%;">
+        <img src="preview/sumup-settings.png" alt="SumUp Settings" style="width:90%; max-width:600px; height:auto;">
+        <div><strong>Extension Popup & Settings</strong></div>
       </td>
-      <td align="center">
-        <strong>In-Depth Summary Mode</strong><br/>
-        <img src="preview/in-depth-summary.png" alt="In-Depth Summary" width="300">
+      <td align="center" style="width:50%;">
+        <img src="preview/in-depth-summary.png" alt="In-Depth Summary" style="width:90%; max-width:600px; height:auto;">
+        <div><strong>In-Depth Summary Mode</strong></div>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <strong>Concise Summary Mode</strong><br/>
-        <img src="preview/concise-summary.png" alt="Concise Summary" width="300">
+        <img src="preview/concise-summary.png" alt="Concise Summary" style="width:90%; max-width:600px; height:auto;">
+        <div><strong>Concise Summary Mode</strong></div>
       </td>
       <td align="center">
-        <strong>Key Points Mode</strong><br/>
-        <img src="preview/key-points.png" alt="Key Points Mode" width="300">
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <strong>Multi-language Translation</strong><br/>
-        <img src="preview/hindi-translation.png" alt="Hindi Translation" width="300">
-      </td>
-      <td align="center">
-        <strong>Download & Save Summary</strong><br/>
-        <img src="preview/download-text.png" alt="Download Summary" width="200">
+        <img src="preview/key-points.png" alt="Key Points Mode" style="width:90%; max-width:600px; height:auto;">
+        <div><strong>Key Points Mode</strong></div>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <strong>History Tracking</strong><br/>
-        <img src="preview/history.png" alt="History Tracking" width="300">
+        <img src="preview/hindi-translation.png" alt="Hindi Translation" style="width:90%; max-width:600px; height:auto;">
+        <div><strong>Multi-language Translation</strong></div>
       </td>
       <td align="center">
-        <strong>Follow-up Questions</strong><br/>
-        <img src="preview/follow-up-questions.png" alt="Follow-up Questions" width="300">
+        <img src="preview/download-text.png" alt="Download Summary" style="width:90%; max-width:600px; height:auto;">
+        <div><strong>Download & Save Summary</strong></div>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="preview/history.png" alt="History Tracking" style="width:90%; max-width:600px; height:auto;">
+        <div><strong>History Tracking</strong></div>
+      </td>
+      <td align="center">
+        <img src="preview/follow-up-questions.png" alt="Follow-up Questions" style="width:90%; max-width:600px; height:auto;">
+        <div><strong>Follow-up Questions</strong></div>
       </td>
     </tr>
   </table>
 </details>
+
 
 
 ---
