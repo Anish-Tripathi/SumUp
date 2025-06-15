@@ -1,1 +1,1 @@
-# SumUp
+# SumUp: AI-powered Summarizer extension
