@@ -50,7 +50,7 @@
 
 ### 🚀 **Smart Features**
 - **One-Click Copy**: Instantly copy summaries to clipboard
-- - **One-Click Download**: Instantly download summaries to file
+- **One-Click Download**: Instantly download summaries to file
 - **Follow-up Questions**: Ask contextual questions about the content
 - **History Tracking**: Save and revisit previous summaries
 - **Responsive Design**: Works seamlessly across all devices
