@@ -1,10 +1,10 @@
-# SumUp - AI-Powered Web Content Summarizer
+# SumUp - AI-Powered Web Content Summarizer Extension
 
 <div align="center">
   <img src="icon16.png" alt="SumUp Logo" width="128" height="128">
 </div>
 
-<div align="center">
+<div align="center" style="margin:10px">
   <p> An intelligent Chrome extension that instantly summarizes articles, blogs, and web content using Google's Gemini API. Transform lengthy content into digestible insights with multiple summary modes and multilingual support.</p>
 </div>
 
