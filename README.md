@@ -323,7 +323,7 @@ We welcome contributions! Here's how to get started:
 
 
 
-### Frequently Asked Questions
+## Frequently Asked Questions
 
 <details>
 <summary><strong>How do I get a Gemini API key?</strong></summary>
@@ -353,7 +353,9 @@ Some websites block content scripts or have complex layouts. Try refreshing the 
 No, SumUp requires an internet connection to communicate with the Gemini API for generating summaries.
 </details>
 
-### Changelog
+---
+
+## Changelog
 
 #### Version 1.0.0 (Current)
 -  Initial release
