@@ -4,10 +4,11 @@
   <img src="icon16.png" alt="SumUp Logo" width="128" height="128">
 </div>
 
-<div align="center" style="margin:10px">
-  <p> An intelligent Chrome extension that instantly summarizes articles, blogs, and web content using Google's Gemini API. Transform lengthy content into digestible insights with multiple summary modes and multilingual support.</p>
+<div align="center" style="margin: 20px 10px;">
+  <p>
+    SumUp is a smart Chrome extension that uses Google's Gemini API to instantly distill long articles, blogs, and web pages into clear, concise summaries. Choose from multiple summary styles, translate content into various languages, and grasp key insights in seconds.
+  </p>
 </div>
-
 
 ---
 
