@@ -34,9 +34,9 @@
 - Advanced natural language processing
 
 ### 📝 **Multiple Summary Modes**
-- **Brief**: Quick overview in 2-3 lines
-- **Detailed**: Comprehensive summary with key insights
-- **Bullet Points**: Structured key takeaways
+- **Concise**: Quick overview in 5-6 lines
+- **In-Depth**: Comprehensive summary with key insights
+- **Key Points**: Structured key takeaways
 
 
 ### 🌍 **Multilingual Support**
