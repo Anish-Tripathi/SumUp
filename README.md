@@ -62,7 +62,7 @@
 ## 🖼️ Preview
 
 <details>
-  <summary><strong>Click to view the screenshot</strong></summary>
+  <summary><strong>Click to view the extension</strong></summary>
   <table align="center" style="border-collapse: separate; border-spacing: 20px;">
     <tr>
       <td align="center" style="padding: 15px;">
