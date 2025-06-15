@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <p>> An intelligent Chrome extension that instantly summarizes articles, blogs, and web content using Google's Gemini API. Transform lengthy content into digestible insights with multiple summary modes and multilingual support.</p>
+  <p> An intelligent Chrome extension that instantly summarizes articles, blogs, and web content using Google's Gemini API. Transform lengthy content into digestible insights with multiple summary modes and multilingual support.</p>
 </div>
 
 
