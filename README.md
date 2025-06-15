@@ -75,8 +75,11 @@
 ### Key Points Mode
 <img src="preview/key-points.png" alt="Key Points Mode" width="300">
 
-### Hindi Translation
+### Multi-language Translation
 <img src="preview/hindi-translation.png" alt="Hindi Translation" width="300">
+
+### Download & Save Summary
+<img src="preview/download-text.png" alt="Mobile View" width="200">
 
 ### History Tracking
 <img src="preview/history.png" alt="History Tracking" width="300">
@@ -84,8 +87,6 @@
 ### Follow-up Questions
 <img src="preview/follow-up-questions.png" alt="Follow-up Questions" width="300">
 
-### Mobile Responsive Design
-<img src="preview/mobile-view.png" alt="Mobile View" width="200">
 
 </details>
 
