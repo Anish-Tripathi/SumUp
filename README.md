@@ -2,14 +2,12 @@
 
 <div align="center">
   <img src="icon16.png" alt="SumUp Logo" width="128" height="128">
-  
-  [![Chrome Web Store](https://img.shields.io/badge/Chrome-Web%20Store-blue?style=flat-square&logo=google-chrome)](https://chrome.google.com/webstore)
-  [![Version](https://img.shields.io/badge/version-1.0.0-green?style=flat-square)](https://github.com/yourusername/sumup)
-  [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
-  [![AI Powered](https://img.shields.io/badge/AI-Gemini%20API-orange?style=flat-square)](https://ai.google.dev/)
 </div>
 
-> An intelligent Chrome extension that instantly summarizes articles, blogs, and web content using Google's Gemini API. Transform lengthy content into digestible insights with multiple summary modes and multilingual support.
+<div align="center">
+  <p>> An intelligent Chrome extension that instantly summarizes articles, blogs, and web content using Google's Gemini API. Transform lengthy content into digestible insights with multiple summary modes and multilingual support.</p>
+</div>
+
 
 ---
 
