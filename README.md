@@ -355,7 +355,7 @@ No, SumUp requires an internet connection to communicate with the Gemini API for
 
 ---
 
-## Changelog
+## Future Enhancement (Version 2.0 )
 
 #### Version 1.0.0 (Current)
 -  Initial release
