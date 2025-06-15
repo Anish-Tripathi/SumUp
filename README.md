@@ -1,4 +1,4 @@
-# SumUp - AI-Powered Web Content Summarizer Extension
+# SumUp: AI-Powered Web Content Summarizer Extension
 
 <div align="center">
   <img src="icon16.png" alt="SumUp Logo" width="128" height="128">
