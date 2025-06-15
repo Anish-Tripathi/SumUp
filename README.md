@@ -62,34 +62,52 @@
 ## 🖼️ Preview
 
 <details>
-<summary>📸 <strong>Click to view screenshots</strong></summary>
-
-### Extension Popup & Settings
-<img src="preview/sumup-settings.png" alt="SumUp Settings" width="300">
-
-### In-Depth Summary Mode
-<img src="preview/in-depth-summary.png" alt="In-Depth Summary" width="300">
-
-### Concise Summary Mode  
-<img src="preview/concise-summary.png" alt="Concise Summary" width="300">
-
-### Key Points Mode
-<img src="preview/key-points.png" alt="Key Points Mode" width="300">
-
-### Multi-language Translation
-<img src="preview/hindi-translation.png" alt="Hindi Translation" width="300">
-
-### Download & Save Summary
-<img src="preview/download-text.png" alt="Mobile View" width="200">
-
-### History Tracking
-<img src="preview/history.png" alt="History Tracking" width="300">
-
-### Follow-up Questions
-<img src="preview/follow-up-questions.png" alt="Follow-up Questions" width="300">
-
-
+  <summary>📸 <strong>Click to view screenshots</strong></summary>
+  <br/>
+  <table>
+    <tr>
+      <td align="center">
+        <strong>Extension Popup & Settings</strong><br/>
+        <img src="preview/sumup-settings.png" alt="SumUp Settings" width="300">
+      </td>
+      <td align="center">
+        <strong>In-Depth Summary Mode</strong><br/>
+        <img src="preview/in-depth-summary.png" alt="In-Depth Summary" width="300">
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <strong>Concise Summary Mode</strong><br/>
+        <img src="preview/concise-summary.png" alt="Concise Summary" width="300">
+      </td>
+      <td align="center">
+        <strong>Key Points Mode</strong><br/>
+        <img src="preview/key-points.png" alt="Key Points Mode" width="300">
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <strong>Multi-language Translation</strong><br/>
+        <img src="preview/hindi-translation.png" alt="Hindi Translation" width="300">
+      </td>
+      <td align="center">
+        <strong>Download & Save Summary</strong><br/>
+        <img src="preview/download-text.png" alt="Download Summary" width="200">
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <strong>History Tracking</strong><br/>
+        <img src="preview/history.png" alt="History Tracking" width="300">
+      </td>
+      <td align="center">
+        <strong>Follow-up Questions</strong><br/>
+        <img src="preview/follow-up-questions.png" alt="Follow-up Questions" width="300">
+      </td>
+    </tr>
+  </table>
 </details>
+
 
 ---
 
