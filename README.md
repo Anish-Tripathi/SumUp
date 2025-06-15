@@ -15,7 +15,7 @@
 ## 📋 Table of Contents
 
 - [Features](#-features)
-- [Preview](#-preview)
+- [Preview](#-preview)  
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Project Structure](#-project-structure)
