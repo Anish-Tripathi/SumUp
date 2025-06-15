@@ -62,51 +62,52 @@
 ## 🖼️ Preview
 
 <details>
-  <summary>📸 <strong>Click to preview the extension</strong></summary>
-  <br/>
-  <table style="width:100%; border-spacing: 20px 30px; padding: 20px; margin: 20px 0;">
+  <summary><strong>⚙️ Extension UI & Features</strong></summary>
+  <table align="center">
     <tr>
-      <td style="width:50%; text-align:center; padding: 20px;">
-        <img src="preview/sumup-settings.png" alt="SumUp Settings" style="width:90%; max-width:500px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-        <div style="margin-top: 10px;"><strong>Extension Popup & Settings</strong></div>
+      <td align="center">
+        <img src="preview/sumup-settings.png" alt="Settings" width="400" height="250" />
+        <div><strong>Extension Popup & Settings</strong></div>
       </td>
-      <td style="width:50%; text-align:center; padding: 20px;">
-        <img src="preview/in-depth-summary.png" alt="In-Depth Summary" style="width:90%; max-width:500px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-        <div style="margin-top: 10px;"><strong>In-Depth Summary Mode</strong></div>
+      <td align="center">
+        <img src="preview/in-depth-summary.png" alt="In-Depth Summary" width="400" height="250" />
+        <div><strong>In-Depth Summary Mode</strong></div>
       </td>
     </tr>
     <tr>
-      <td style="text-align:center; padding: 20px;">
-        <img src="preview/concise-summary.png" alt="Concise Summary" style="width:90%; max-width:500px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-        <div style="margin-top: 10px;"><strong>Concise Summary Mode</strong></div>
+      <td align="center">
+        <img src="preview/concise-summary.png" alt="Concise Summary" width="400" height="250" />
+        <div><strong>Concise Summary Mode</strong></div>
       </td>
-      <td style="text-align:center; padding: 20px;">
-        <img src="preview/key-points.png" alt="Key Points Mode" style="width:90%; max-width:500px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-        <div style="margin-top: 10px;"><strong>Key Points Mode</strong></div>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:center; padding: 20px;">
-        <img src="preview/hindi-translation.png" alt="Hindi Translation" style="width:90%; max-width:500px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-        <div style="margin-top: 10px;"><strong>Multi-language Translation</strong></div>
-      </td>
-      <td style="text-align:center; padding: 20px;">
-        <img src="preview/download-text.png" alt="Download Summary" style="width:90%; max-width:500px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-        <div style="margin-top: 10px;"><strong>Download & Save Summary</strong></div>
+      <td align="center">
+        <img src="preview/key-points.png" alt="Key Points Mode" width="400" height="250" />
+        <div><strong>Key Points Mode</strong></div>
       </td>
     </tr>
     <tr>
-      <td style="text-align:center; padding: 20px;">
-        <img src="preview/history.png" alt="History Tracking" style="width:90%; max-width:500px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-        <div style="margin-top: 10px;"><strong>History Tracking</strong></div>
+      <td align="center">
+        <img src="preview/hindi-translation.png" alt="Hindi Translation" width="400" height="250" />
+        <div><strong>Multi-language Translation</strong></div>
       </td>
-      <td style="text-align:center; padding: 20px;">
-        <img src="preview/follow-up-questions.png" alt="Follow-up Questions" style="width:90%; max-width:500px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-        <div style="margin-top: 10px;"><strong>Follow-up Questions</strong></div>
+      <td align="center">
+        <img src="preview/download-text.png" alt="Download Summary" width="400" height="250" />
+        <div><strong>Download & Save Summary</strong></div>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="preview/history.png" alt="History Tracking" width="400" height="250" />
+        <div><strong>History Tracking</strong></div>
+      </td>
+      <td align="center">
+        <img src="preview/follow-up-questions.png" alt="Follow-up Questions" width="400" height="250" />
+        <div><strong>Follow-up Questions</strong></div>
       </td>
     </tr>
   </table>
+  <p align="center"><em>Smart summary, translation, history, and more</em></p>
 </details>
+
 
 
 
