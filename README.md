@@ -6,7 +6,7 @@
 
 <div align="center" style="margin: 20px 10px;">
   <p>
-    SumUp is a smart Chrome extension that uses Google's Gemini API to instantly distill long articles, blogs, and web pages into clear, concise summaries. Choose from multiple summary styles, translate content into various languages, and grasp key insights in seconds.
+    SumUp is a smart Chrome extension that uses Google's Gemini API to instantly distill long articles, blogs, and web pages into clear, concise summaries. 
   </p>
 </div>
 
