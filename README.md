@@ -102,7 +102,7 @@
 ### Manual Installation (Developer Mode)
 1. Download or clone this repository
    ```bash
-   git clone https://github.com/yourusername/sumup.git
+   git clone https://github.com/Anish-Tripathi/sumup.git
    cd sumup
    ```
 
