@@ -13,7 +13,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Features](#-features)
 - [Preview](#-preview)  
@@ -27,20 +27,20 @@
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🧠 **AI-Powered Summarization**
+###  **AI-Powered Summarization**
 - Powered by Google's Gemini API for accurate and contextual summaries
 - Intelligent content extraction from web pages
 - Advanced natural language processing
 
-### 📝 **Multiple Summary Modes**
+###  **Multiple Summary Modes**
 - **Concise**: Quick overview in 5-6 lines
 - **In-Depth**: Comprehensive summary with key insights
 - **Key Points**: Structured key takeaways
 
 
-### 🌍 **Multilingual Support**
+###  **Multilingual Support**
 - English (Default)
 - Hindi (हिंदी)
 - French (Français)
@@ -50,7 +50,7 @@
 - Italian (Italiano)
 - Japanese (日本語)
 
-### 🚀 **Smart Features**
+###  **Smart Features**
 - **One-Click Copy**: Instantly copy summaries to clipboard
 - **One-Click Download**: Instantly download summaries to file
 - **Follow-up Questions**: Ask contextual questions about the content
@@ -60,7 +60,7 @@
 
 ---
 
-## 🖼️ Preview
+##  Preview
 
 <details>
   <summary><strong>Click to view the extension</strong></summary>
@@ -113,7 +113,7 @@
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### From Chrome Web Store (Recommended)
 1. Visit the [Chrome Web Store](https://chrome.google.com/webstore)
@@ -138,7 +138,7 @@
 
 ---
 
-## 🎯 Usage
+##  Usage
 
 ### Quick Start
 1. **Navigate** to any article or blog post
@@ -168,7 +168,7 @@ After generating a summary, ask contextual questions like:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 sumup/
@@ -210,7 +210,7 @@ sumup/
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 
 ### API Setup
 1. **Get Gemini API Key**:
@@ -231,7 +231,7 @@ sumup/
 
 ---
 
-## 🛠️ Development
+##  Development
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -271,7 +271,7 @@ npm run package
 
 ---
 
-## 🔑 API Setup
+##  API Setup
 
 ### Google Gemini API Configuration
 
@@ -302,7 +302,7 @@ npm run package
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Here's how to get started:
 
@@ -356,18 +356,18 @@ No, SumUp requires an internet connection to communicate with the Gemini API for
 ### Changelog
 
 #### Version 1.0.0 (Current)
-- ✅ Initial release
-- ✅ Gemini API integration
-- ✅ Multiple summary modes
-- ✅ Multilingual support
-- ✅ History tracking
-- ✅ Follow-up questions
+-  Initial release
+-  Gemini API integration
+-  Multiple summary modes
+- Multilingual support
+-  History tracking
+-  Follow-up questions
 
 #### Upcoming Features
-- 🔄 PDF summarization
-- 🔄 YouTube video summaries
-- 🔄 Export to multiple formats
-- 🔄 Team collaboration features
+-  PDF summarization
+-  YouTube video summaries
+-  Export to multiple formats
+-  Team collaboration features
 
 ---
 
