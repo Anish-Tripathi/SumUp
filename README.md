@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <img src="sumup-logo.png" alt="SumUp Logo" width="200" height="200">
+
   <h3>AI-Powered Summarizer Chrome Extension</h3>
   <p>SumUp is a smart Chrome extension that uses Google's Gemini API to instantly distill long articles, blogs, and web pages into clear, concise summaries.</p>
 </div>
