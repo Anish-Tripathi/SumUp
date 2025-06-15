@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SumUp Settings</title>
+    <link rel="stylesheet" href="./options.css">
+    <link rel="icon" type="image/png" href="./icon.png">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>SumUp Settings</h1>
+        </div>
+        
+        <div class="content">
+            <div class="form-section">
+                <div class="section-title">
+                    <div class="section-icon">🔑</div>
+                    API Configuration
+                </div>
+                
+                <div class="form-group">
+                    <label for="api-key">Gemini API Key:</label>
+                    <input type="text" id="api-key" placeholder="Enter your Gemini API key (e.g., AIzaSy...)" />
+                    
+                    <div class="api-key-status">
+                        <div class="status-indicator" id="status-indicator"></div>
+                        <span id="status-text">No API key configured</span>
+                    </div>
+                    
+                    <div class="help-text">
+                        You can get an API key from 
+                        <a href="https://makersuite.google.com/app/apikey" target="_blank">Google AI Studio</a>.
+                        Your API key is stored locally and never shared.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="button-container">
+                <button id="save-button">Save Settings</button>
+                <div class="loading-spinner" id="loading-spinner"></div>
+            </div>
+            
+            <div id="success-message" class="success-message">
+                Settings saved successfully!
+            </div>
+            
+            <div id="error-message" class="error-message">
+                Please enter a valid API key.
+            </div>
+        </div>
+    </div>
+
+<script src="options.js"></script>
+</body>
+</html>

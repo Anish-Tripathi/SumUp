@@ -1,0 +1,255 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background-color: #1a1a1a;
+            color: #e5e5e5;
+            min-height: 100vh;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #222222;
+            border: 1px solid #3a3a3a;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2d2d2d 0%, #1f1f1f 100%);
+            padding: 30px;
+            border-bottom: 1px solid #333;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: 28px;
+            font-weight: 600;
+            margin: 0;
+            letter-spacing: -0.3px;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #ffffff;
+            font-size: 14px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 12px 16px;
+            background-color: #2a2a2a;
+            color: #e5e5e5;
+            border: 1px solid #404040;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: all 0.2s ease;
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #0066cc;
+            box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.2);
+            background-color: #323232;
+        }
+
+        input[type="text"]:hover {
+            border-color: #5a5a5a;
+            background-color: #2d2d2d;
+        }
+
+        input[type="text"]::placeholder {
+            color: #888;
+        }
+
+        .help-text {
+            margin-top: 8px;
+            font-size: 13px;
+            color: #888;
+            line-height: 1.4;
+        }
+
+        .help-text a {
+            color: #0066cc;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        .help-text a:hover {
+            color: #0052a3;
+            text-decoration: underline;
+        }
+
+        .button-container {
+            margin-top: 30px;
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        button {
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 14px;
+            transition: all 0.2s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        button:hover {
+            background-color: #0052a3;
+            transform: translateY(-1px);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        button:disabled {
+            background-color: #404040;
+            cursor: not-allowed;
+            transform: none;
+            opacity: 0.6;
+        }
+
+        .success-message {
+            background-color: #1e3a32;
+            color: #4ade80;
+            border: 1px solid #22543d;
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 500;
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+            margin-top: 15px;
+        }
+
+        .success-message.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .error-message {
+            background-color: #3a1e1e;
+            color: #ff6b6b;
+            border: 1px solid #543d3d;
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 500;
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+            margin-top: 15px;
+        }
+
+        .error-message.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .api-key-status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 8px;
+            font-size: 12px;
+        }
+
+        .status-indicator {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #666;
+        }
+
+        .status-indicator.valid {
+            background-color: #4ade80;
+        }
+
+        .status-indicator.invalid {
+            background-color: #ff6b6b;
+        }
+
+        .loading-spinner {
+            width: 16px;
+            height: 16px;
+            border: 2px solid #404040;
+            border-top: 2px solid #0066cc;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            display: none;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .processing button {
+            background-color: #404040;
+            cursor: wait;
+        }
+
+        .processing .loading-spinner {
+            display: block;
+        }
+
+        .form-section {
+            background-color: #262626;
+            border: 1px solid #3a3a3a;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #ffffff;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .section-icon {
+            width: 20px;
+            height: 20px;
+            background-color: #0066cc;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            color: white;
+        }

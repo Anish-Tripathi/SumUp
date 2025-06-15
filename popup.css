@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    background-color: #1a1a1a;
+    color: #e5e5e5;
+    width: 350px;
+    min-height: 400px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header {
+    background: linear-gradient(135deg, #2d2d2d 0%, #1f1f1f 100%);
+    padding: 16px;
+    border-bottom: 1px solid #333;
+    text-align: center;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 4px;
+    font-style: italic;
+}
+
+.tabs {
+    display: flex;
+    border-bottom: 1px solid #333;
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    color: #888;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+}
+
+.tab-btn.active {
+    color: #fff;
+}
+
+.tab-btn.active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #0066cc;
+}
+
+.content {
+    padding: 16px;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.options {
+    margin-bottom: 16px;
+}
+
+.option-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+select {
+    flex: 1;
+    padding: 8px 12px;
+    background-color: #2a2a2a;
+    color: #e5e5e5;
+    border: 1px solid #404040;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+select:focus {
+    outline: none;
+    border-color: #0066cc;
+}
+
+.button-group {
+    display: flex;
+    gap: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all 0.2s;
+}
+
+.primary-btn {
+    background-color: #0066cc;
+    color: white;
+    flex: 1;
+}
+
+.primary-btn:hover {
+    background-color: #0052a3;
+}
+
+button:disabled {
+    background-color: #404040;
+    cursor: not-allowed;
+    color: #666;
+}
+
+#result {
+    background-color: #222222;
+    border: 1px solid #3a3a3a;
+    border-radius: 8px;
+    padding: 12px;
+    min-height: 150px;
+    max-height: 200px;
+    overflow-y: auto;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #d0d0d0;
+    margin-bottom: 12px;
+}
+
+#result::-webkit-scrollbar {
+    width: 4px;
+}
+
+#result::-webkit-scrollbar-thumb {
+    background: #5a5a5a;
+}
+
+.placeholder-text {
+    color: #666;
+    font-style: italic;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.action-buttons button {
+    flex: 1;
+    background-color: #333;
+    color: #ddd;
+}
+
+.action-buttons button:hover {
+    background-color: #3a3a3a;
+}
+
+
+
+.followup-section {
+    margin-top: 12px;
+}
+
+#followup-input {
+    width: 100%;
+    padding: 8px 12px;
+    background-color: #2a2a2a;
+    color: #e5e5e5;
+    border: 1px solid #404040;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+#followup-input:focus {
+    outline: none;
+    border-color: #0066cc;
+}
+
+#followup-btn {
+    width: 100%;
+    background-color: #8b5cf6;
+    color: white;
+}
+
+#followup-btn:hover {
+    background-color: #7c3aed;
+}
+
+/* History Tab Styles */
+#history-tab {
+    padding: 0;
+}
+
+.history-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.history-header h3 {
+    font-size: 15px;
+    color: #ddd;
+}
+
+#clear-history {
+    background-color: transparent;
+    color: #cc6666;
+    padding: 4px 8px;
+    font-size: 12px;
+}
+
+#clear-history:hover {
+    background-color: #2a1a1a;
+}
+
+#history-list {
+    list-style: none;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+#history-list li {
+    padding: 10px;
+    background-color: #252525;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#history-list li:hover {
+    background-color: #2e2e2e;
+}
+
+.status-message {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #28a745;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.status-message.show {
+    opacity: 1;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.loader {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #404040;
+    border-top: 2px solid #0066cc;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
