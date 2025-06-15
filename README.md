@@ -13,17 +13,17 @@
 
 ---
 
-##  Table of Contents
+## Table of Contents
 
-- [Features](#-features)
-- [Preview](#-preview)  
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Project Structure](#-project-structure)
-- [Configuration](#-configuration)
-- [Development](#-development)
-- [API Setup](#-api-setup)
-- [Contributing](#-contributing)
+- [Features](#features)
+- [Preview](#preview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Configuration](#configuration)
+- [Development](#development)
+- [API Setup](#api-setup)
+- [Contributing](#contributing)
 
 ---
 
